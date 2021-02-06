@@ -26,6 +26,22 @@ import Foundation
 
 //MARK: 1. iExpense Introduction
 
+//Our next two projects are going to start pushing your SwiftUI skills beyond the basics, as we explore apps that have multiple screens, that load and save user data, and have more complex user interfaces.
+
+//In this project we're going to build iExpense, which is an expense tracker that separates personal costs from business costs. At its core this is an app with a form (how much did you spend?) and a list (here are the amounts you spend), but in order to acccomplish these two things you're oging to need to learn how to:
+
+// 1. Present and dismiss a second screen of data
+
+// 2. Delete rows from a list
+
+// 3. Save and load user data
+
+//...and more!
+
+//There's lots to do, so let's get started: create a new iOS app using the Single View App template, naming it iExpense" We'll b using that for the main project, but first lets take a closer look at the new techniques required for the project.
+
+
+
 
 //MARK: 2. Why @State Only Works with Structs
 
