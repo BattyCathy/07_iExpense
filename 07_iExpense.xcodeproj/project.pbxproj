@@ -13,6 +13,7 @@
 		B1B4863B25CF3E2F001AC0A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B4863A25CF3E2F001AC0A3 /* Preview Assets.xcassets */; };
 		B1B4864625CF3E2F001AC0A3 /* _7_iExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4864525CF3E2F001AC0A3 /* _7_iExpenseTests.swift */; };
 		B1B4865125CF3E2F001AC0A3 /* _7_iExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4865025CF3E2F001AC0A3 /* _7_iExpenseUITests.swift */; };
+		B1B4866225CF3EC0001AC0A3 /* Day One Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4866125CF3EC0001AC0A3 /* Day One Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B1B4864C25CF3E2F001AC0A3 /* 07_iExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 07_iExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B4865025CF3E2F001AC0A3 /* _7_iExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _7_iExpenseUITests.swift; sourceTree = "<group>"; };
 		B1B4865225CF3E2F001AC0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B4866125CF3EC0001AC0A3 /* Day One Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day One Notes.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				B1B4863325CF3E2D001AC0A3 /* _7_iExpenseApp.swift */,
 				B1B4863525CF3E2D001AC0A3 /* ContentView.swift */,
+				B1B4866125CF3EC0001AC0A3 /* Day One Notes.swift */,
 				B1B4863725CF3E2F001AC0A3 /* Assets.xcassets */,
 				B1B4863C25CF3E2F001AC0A3 /* Info.plist */,
 				B1B4863925CF3E2F001AC0A3 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				B1B4863625CF3E2D001AC0A3 /* ContentView.swift in Sources */,
 				B1B4863425CF3E2D001AC0A3 /* _7_iExpenseApp.swift in Sources */,
+				B1B4866225CF3EC0001AC0A3 /* Day One Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
