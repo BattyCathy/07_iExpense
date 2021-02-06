@@ -11,14 +11,27 @@ class User: ObservableObject {
     @Published var lastName = "Baggins"
 }
 
-struct ContentView: View {
-    @ObservedObject var user = User()
+struct SecondView: View {
+    @Environment(\.presentationMode) var presentationMode
+    var name: String
+    
     var body: some View {
-        VStack {
-            Text("Your name is \(user.firstName) \(user.lastName).")
-            
-            TextField("First Name", text: $user.firstName)
-            TextField("Last Name", text: $user.lastName)
+        Button("Dismiss") {
+            self.presentationMode.wrappedValue.dismiss()
+        }
+    }
+}
+
+struct ContentView: View {
+    
+@State private var showingSheet = false
+    
+    var body: some View {
+        Button("Show Sheet") {
+            showingSheet.toggle()
+        }
+        .sheet(isPresented: $showingSheet) {
+            SecondView(name: "@satanspussy")
         }
     }
 }
