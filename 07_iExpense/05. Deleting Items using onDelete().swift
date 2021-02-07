@@ -72,4 +72,4 @@ import Foundation
 
 //.navigationBarItems(leading: EditButton())
 
-//That's literally all it takes - if you run the app you'll see you can add some numbers, then tap Edit to start delting rows. When you're ready, tap DOne to exit editing mode. Not bad, given how little code it took!
+//That's literally all it takes - if you run the app you'll see you can add some numbers, then tap Edit to start delting rows. When you're ready, tap Done to exit editing mode. Not bad, given how little code it took!
