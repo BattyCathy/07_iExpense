@@ -20,6 +20,7 @@
 		B1B4868525D06814001AC0A3 /* 05. Deleting Items using onDelete().swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4868425D06814001AC0A3 /* 05. Deleting Items using onDelete().swift */; };
 		B1B4868A25D074B4001AC0A3 /* 06. Storing user settings with UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4868925D074B4001AC0A3 /* 06. Storing user settings with UserDefaults.swift */; };
 		B1B4869525D08E4F001AC0A3 /* 07.Archiving Swift Objects with Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4869425D08E4F001AC0A3 /* 07.Archiving Swift Objects with Codable.swift */; };
+		B1B486A125D09366001AC0A3 /* Day 37 project 7, part 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B486A025D09366001AC0A3 /* Day 37 project 7, part 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B1B4868425D06814001AC0A3 /* 05. Deleting Items using onDelete().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05. Deleting Items using onDelete().swift"; sourceTree = "<group>"; };
 		B1B4868925D074B4001AC0A3 /* 06. Storing user settings with UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "06. Storing user settings with UserDefaults.swift"; sourceTree = "<group>"; };
 		B1B4869425D08E4F001AC0A3 /* 07.Archiving Swift Objects with Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "07.Archiving Swift Objects with Codable.swift"; sourceTree = "<group>"; };
+		B1B486A025D09366001AC0A3 /* Day 37 project 7, part 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day 37 project 7, part 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				B1B4863325CF3E2D001AC0A3 /* _7_iExpenseApp.swift */,
 				B1B4863525CF3E2D001AC0A3 /* ContentView.swift */,
+				B1B4869F25D0932D001AC0A3 /* Day Two Notes */,
 				B1B4869025D0751E001AC0A3 /* Day One Notes */,
 				B1B4863725CF3E2F001AC0A3 /* Assets.xcassets */,
 				B1B4863C25CF3E2F001AC0A3 /* Info.plist */,
@@ -157,6 +160,14 @@
 				B1B4868425D06814001AC0A3 /* 05. Deleting Items using onDelete().swift */,
 			);
 			path = "Day One Notes";
+			sourceTree = "<group>";
+		};
+		B1B4869F25D0932D001AC0A3 /* Day Two Notes */ = {
+			isa = PBXGroup;
+			children = (
+				B1B486A025D09366001AC0A3 /* Day 37 project 7, part 2.swift */,
+			);
+			path = "Day Two Notes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +304,7 @@
 				B1B4868525D06814001AC0A3 /* 05. Deleting Items using onDelete().swift in Sources */,
 				B1B4867A25CF5454001AC0A3 /* 04. Showing and Hiding Views.swift in Sources */,
 				B1B4866F25CF4E7E001AC0A3 /* 03. Sharing SwiftUI state with @ObservableObject.swift in Sources */,
+				B1B486A125D09366001AC0A3 /* Day 37 project 7, part 2.swift in Sources */,
 				B1B4863625CF3E2D001AC0A3 /* ContentView.swift in Sources */,
 				B1B4869525D08E4F001AC0A3 /* 07.Archiving Swift Objects with Codable.swift in Sources */,
 				B1B4863425CF3E2D001AC0A3 /* _7_iExpenseApp.swift in Sources */,
