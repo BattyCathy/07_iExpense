@@ -18,6 +18,7 @@
 		B1B4866F25CF4E7E001AC0A3 /* 03. Sharing SwiftUI state with @ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4866E25CF4E7E001AC0A3 /* 03. Sharing SwiftUI state with @ObservableObject.swift */; };
 		B1B4867A25CF5454001AC0A3 /* 04. Showing and Hiding Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4867925CF5454001AC0A3 /* 04. Showing and Hiding Views.swift */; };
 		B1B4868525D06814001AC0A3 /* 05. Deleting Items using onDelete().swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4868425D06814001AC0A3 /* 05. Deleting Items using onDelete().swift */; };
+		B1B4868A25D074B4001AC0A3 /* 06. Storing user settings with UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4868925D074B4001AC0A3 /* 06. Storing user settings with UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B1B4866E25CF4E7E001AC0A3 /* 03. Sharing SwiftUI state with @ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. Sharing SwiftUI state with @ObservableObject.swift"; sourceTree = "<group>"; };
 		B1B4867925CF5454001AC0A3 /* 04. Showing and Hiding Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04. Showing and Hiding Views.swift"; sourceTree = "<group>"; };
 		B1B4868425D06814001AC0A3 /* 05. Deleting Items using onDelete().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05. Deleting Items using onDelete().swift"; sourceTree = "<group>"; };
+		B1B4868925D074B4001AC0A3 /* 06. Storing user settings with UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "06. Storing user settings with UserDefaults.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +109,7 @@
 			children = (
 				B1B4863325CF3E2D001AC0A3 /* _7_iExpenseApp.swift */,
 				B1B4863525CF3E2D001AC0A3 /* ContentView.swift */,
-				B1B4866125CF3EC0001AC0A3 /* Day One Notes.swift */,
-				B1B4866625CF45A5001AC0A3 /* 02. Why @State only works with Structs.swift */,
-				B1B4866E25CF4E7E001AC0A3 /* 03. Sharing SwiftUI state with @ObservableObject.swift */,
-				B1B4867925CF5454001AC0A3 /* 04. Showing and Hiding Views.swift */,
-				B1B4868425D06814001AC0A3 /* 05. Deleting Items using onDelete().swift */,
+				B1B4869025D0751E001AC0A3 /* Notes */,
 				B1B4863725CF3E2F001AC0A3 /* Assets.xcassets */,
 				B1B4863C25CF3E2F001AC0A3 /* Info.plist */,
 				B1B4863925CF3E2F001AC0A3 /* Preview Content */,
@@ -143,6 +141,19 @@
 				B1B4865225CF3E2F001AC0A3 /* Info.plist */,
 			);
 			path = 07_iExpenseUITests;
+			sourceTree = "<group>";
+		};
+		B1B4869025D0751E001AC0A3 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				B1B4868925D074B4001AC0A3 /* 06. Storing user settings with UserDefaults.swift */,
+				B1B4866125CF3EC0001AC0A3 /* Day One Notes.swift */,
+				B1B4866625CF45A5001AC0A3 /* 02. Why @State only works with Structs.swift */,
+				B1B4866E25CF4E7E001AC0A3 /* 03. Sharing SwiftUI state with @ObservableObject.swift */,
+				B1B4867925CF5454001AC0A3 /* 04. Showing and Hiding Views.swift */,
+				B1B4868425D06814001AC0A3 /* 05. Deleting Items using onDelete().swift */,
+			);
+			path = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1B4866725CF45A5001AC0A3 /* 02. Why @State only works with Structs.swift in Sources */,
+				B1B4868A25D074B4001AC0A3 /* 06. Storing user settings with UserDefaults.swift in Sources */,
 				B1B4868525D06814001AC0A3 /* 05. Deleting Items using onDelete().swift in Sources */,
 				B1B4867A25CF5454001AC0A3 /* 04. Showing and Hiding Views.swift in Sources */,
 				B1B4866F25CF4E7E001AC0A3 /* 03. Sharing SwiftUI state with @ObservableObject.swift in Sources */,
