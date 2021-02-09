@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B12C218F25D337CE0097909B /* 01. Building a List We Can Delete From.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C218E25D337CE0097909B /* 01. Building a List We Can Delete From.swift */; };
+		B12C219425D348A10097909B /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C219325D348A10097909B /* ExpenseItem.swift */; };
 		B1B4863425CF3E2D001AC0A3 /* _7_iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4863325CF3E2D001AC0A3 /* _7_iExpenseApp.swift */; };
 		B1B4863625CF3E2D001AC0A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4863525CF3E2D001AC0A3 /* ContentView.swift */; };
 		B1B4863825CF3E2F001AC0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B4863725CF3E2F001AC0A3 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		B12C218E25D337CE0097909B /* 01. Building a List We Can Delete From.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Building a List We Can Delete From.swift"; sourceTree = "<group>"; };
+		B12C219325D348A10097909B /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		B1B4863025CF3E2D001AC0A3 /* 07_iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 07_iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B4863325CF3E2D001AC0A3 /* _7_iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _7_iExpenseApp.swift; sourceTree = "<group>"; };
 		B1B4863525CF3E2D001AC0A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			children = (
 				B1B4863325CF3E2D001AC0A3 /* _7_iExpenseApp.swift */,
 				B1B4863525CF3E2D001AC0A3 /* ContentView.swift */,
+				B12C219325D348A10097909B /* ExpenseItem.swift */,
 				B1B4869F25D0932D001AC0A3 /* Day Two Notes */,
 				B1B4869025D0751E001AC0A3 /* Day One Notes */,
 				B1B4863725CF3E2F001AC0A3 /* Assets.xcassets */,
@@ -309,6 +312,7 @@
 				B1B4866F25CF4E7E001AC0A3 /* 03. Sharing SwiftUI state with @ObservableObject.swift in Sources */,
 				B1B486A125D09366001AC0A3 /* Day 37 project 7, part 2.swift in Sources */,
 				B1B4863625CF3E2D001AC0A3 /* ContentView.swift in Sources */,
+				B12C219425D348A10097909B /* ExpenseItem.swift in Sources */,
 				B12C218F25D337CE0097909B /* 01. Building a List We Can Delete From.swift in Sources */,
 				B1B4869525D08E4F001AC0A3 /* 07.Archiving Swift Objects with Codable.swift in Sources */,
 				B1B4863425CF3E2D001AC0A3 /* _7_iExpenseApp.swift in Sources */,
