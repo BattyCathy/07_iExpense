@@ -14,6 +14,7 @@
 		B12C21A325D36F770097909B /* 03. Sharing an Obsreved Object with a New View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C21A225D36F770097909B /* 03. Sharing an Obsreved Object with a New View.swift */; };
 		B12C21A825D378C20097909B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C21A725D378C20097909B /* AddView.swift */; };
 		B12C21AD25D3817F0097909B /* 04. Making Changes Permanant with UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C21AC25D3817F0097909B /* 04. Making Changes Permanant with UserDefaults.swift */; };
+		B12C21B225D46DD40097909B /* 05. Final Polish.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12C21B125D46DD40097909B /* 05. Final Polish.swift */; };
 		B1B4863425CF3E2D001AC0A3 /* _7_iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4863325CF3E2D001AC0A3 /* _7_iExpenseApp.swift */; };
 		B1B4863625CF3E2D001AC0A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4863525CF3E2D001AC0A3 /* ContentView.swift */; };
 		B1B4863825CF3E2F001AC0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B4863725CF3E2F001AC0A3 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		B12C21A225D36F770097909B /* 03. Sharing an Obsreved Object with a New View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. Sharing an Obsreved Object with a New View.swift"; sourceTree = "<group>"; };
 		B12C21A725D378C20097909B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		B12C21AC25D3817F0097909B /* 04. Making Changes Permanant with UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04. Making Changes Permanant with UserDefaults.swift"; sourceTree = "<group>"; };
+		B12C21B125D46DD40097909B /* 05. Final Polish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05. Final Polish.swift"; sourceTree = "<group>"; };
 		B1B4863025CF3E2D001AC0A3 /* 07_iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 07_iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B4863325CF3E2D001AC0A3 /* _7_iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _7_iExpenseApp.swift; sourceTree = "<group>"; };
 		B1B4863525CF3E2D001AC0A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				B12C219D25D353760097909B /* 02. Working With Identifiable Items in SwiftUI.swift */,
 				B12C21A225D36F770097909B /* 03. Sharing an Obsreved Object with a New View.swift */,
 				B12C21AC25D3817F0097909B /* 04. Making Changes Permanant with UserDefaults.swift */,
+				B12C21B125D46DD40097909B /* 05. Final Polish.swift */,
 			);
 			path = "Day Two Notes";
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				B12C21AD25D3817F0097909B /* 04. Making Changes Permanant with UserDefaults.swift in Sources */,
 				B12C219925D349580097909B /* Expenses.swift in Sources */,
 				B1B4867A25CF5454001AC0A3 /* 04. Showing and Hiding Views.swift in Sources */,
+				B12C21B225D46DD40097909B /* 05. Final Polish.swift in Sources */,
 				B1B4866F25CF4E7E001AC0A3 /* 03. Sharing SwiftUI state with @ObservableObject.swift in Sources */,
 				B1B486A125D09366001AC0A3 /* Day 37 project 7, part 2.swift in Sources */,
 				B12C21A325D36F770097909B /* 03. Sharing an Obsreved Object with a New View.swift in Sources */,
