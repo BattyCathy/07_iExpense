@@ -11,6 +11,7 @@ struct AddView: View {
     @State private var name = ""
     @State private var type = "Personal"
     @State private var amount = ""
+    @ObservedObject var expenses: Expenses
     
     static let types = ["Business", "Personal"]
     
@@ -32,6 +33,6 @@ struct AddView: View {
 }
 struct AddView_Previews: PreviewProvider {
     static var previews: some View {
-        AddView()
+        AddView(expenses: Expenses())
     }
 }
